@@ -15,7 +15,7 @@ Para cumprir o objetivo e executar esse projeto:
 #### II - Comandos para executar a aplicação
 - Faça a clonagem deste projeto
 ```git
-git clone https://github.com/JhoneRodrigues/user-registration
+git clone https://github.com/JhoneRodrigues/user-registration2
 ```  
 - Em sua máquina, dentro do repositório "./user-registration", basta executar o comando abaixo para subir todo o ambiente.
 ```docker
@@ -25,6 +25,13 @@ docker compose up
 - Acesse http://localhost:81 para entrar na aplicação e testar o cadastro de usúario;
 - Acesse http://localhost:8081 para entrar no Docker-express e vizualizar os dados.
 <p> OBS.: Se atualizar a página da aplicação web verá no Prompt o Nginx te direcionando automaticamente para diferentes instancias(node1, node2 ou node3), demonstrando na prática o balanceamento de carga.</p>
+
+#### Parar a aplicação e excluir os contêineres
+- Use o atalho CRTL + C para parar a aplicação;
+- Execute o comando abaixo para exluir os contêineres e as imagens criadas.
+```docker
+docker compose down
+```
 
 ## <b> Vamos nos conectar..!</b><img src="https://github.com/0xAbdulKhalid/0xAbdulKhalid/raw/main/assets/mdImages/handshake.gif" width ="80">
 <a href="https://www.linkedin.com/in/jhonerodrigues/" target="_blank">
